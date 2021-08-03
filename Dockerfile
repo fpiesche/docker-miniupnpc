@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.13
 RUN apk --no-cache add miniupnpc grep
 
 ADD entrypoint.sh /usr/bin/entrypoint.sh
